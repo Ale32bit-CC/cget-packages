@@ -9,5 +9,15 @@
       "version": "0.0.1",
       "remoteUrl": "wip"
     }
+  },
+  "hello": {
+    "name": "Hello, world!",
+    "authors": [
+      "Ale32bit",
+      "pretty much everyone"
+    ],
+    "license": "FREEE",
+    "version": "1.0.1",
+    "remoteUrl": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
   }
 }

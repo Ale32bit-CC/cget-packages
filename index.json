@@ -8,7 +8,7 @@
       "license": "MIT",
       "version": "0.0.1",
       "files": [
-        "cget.lua" = "wip"
+        "cget.lua": "wip"
       ]
     },
     "hello": {
@@ -20,7 +20,7 @@
       "license": "FREEE",
       "version": "1.0.1",
       "files": [
-        "hello.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
+        ["hello.lua"]: "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
       ]
     }
   }

@@ -7,7 +7,9 @@
       ],
       "license": "MIT",
       "version": "0.0.1",
-      "remoteUrl": "wip"
+      "files": [
+        "cget.lua" = "wip"
+      ]
     },
     "hello": {
       "name": "Hello, world!",
@@ -17,8 +19,9 @@
       ],
       "license": "FREEE",
       "version": "1.0.1",
-      "remoteUrl": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua",
-      "fileName": "hello.lua"
+      "files": [
+        "hello.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
+      ]
     }
   }
 }

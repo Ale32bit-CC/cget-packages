@@ -1,3 +1,13 @@
 {
-  "packages":{}
+  "packages":{
+    "cget": {
+      "name": "CraftGet",
+      "authors": [
+        "Ale32bit"
+      ],
+      "license": "MIT",
+      "version": "0.0.1",
+      "remoteUrl": "wip"
+    }
+  }
 }

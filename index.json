@@ -8,7 +8,7 @@
       "license": "MIT",
       "version": "0.0.1",
       "files": {
-        "cget.lua": "wip"
+        "cget.lua": "https://raw.githubusercontent.com/Ale32bit-CC/CraftGet/master/cget.lua"
       }
     },
     "hello": {

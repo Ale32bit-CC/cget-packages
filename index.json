@@ -9,7 +9,8 @@
       "version": "0.0.1",
       "files": {
         "cget.lua": "https://raw.githubusercontent.com/Ale32bit-CC/CraftGet/master/cget.lua"
-      }
+      },
+      "type": "bin"
     },
     "hello": {
       "name": "Hello, world!",
@@ -21,7 +22,8 @@
       "version": "1.0.1",
       "files": {
         "hello.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
-      }
+      },
+      "type": "bin"
     }
   }
 }

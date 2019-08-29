@@ -6,10 +6,13 @@
         "Ale32bit"
       ],
       "license": "MIT",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "files": {
         "cget.lua": "https://raw.githubusercontent.com/Ale32bit-CC/CraftGet/master/cget.lua"
-      }
+      },
+      "autorun": [
+        "cget setup"
+      ]
     },
     "hello": {
       "name": "Hello, world!",

@@ -1,5 +1,5 @@
 {
-  "packages":{
+  "packages": {
     "cget": {
       "name": "CraftGet",
       "authors": [
@@ -21,6 +21,20 @@
       "version": "1.0.1",
       "files": {
         "hello.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/hello.lua"
+      }
+    },
+    "bin-utils": {
+      "name": "Binary utlities",
+      "authors": [
+        "Ale32bit"
+      ],
+      "license": "MIT",
+      "version": "1.0.0",
+      "files": {
+        "/bin/echo.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/echo.lua",
+        "/bin/cat.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/cat.lua",
+        "/bin/sleep.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/sleep.lua",
+        "/bin/touch.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/touch.lua"
       }
     }
   }

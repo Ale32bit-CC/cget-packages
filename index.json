@@ -39,6 +39,17 @@
         "/bin/sleep.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/sleep.lua",
         "/bin/touch.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/touch.lua"
       }
+    },
+    "nodelua": {
+      "name": "Node.lua",
+      "authors": [
+        "Ale32bit"
+      ],
+      "license": "MIT",
+      "version": "1.0.0",
+      "files": {
+        "node.lua": "https://raw.githubusercontent.com/Ale32bit-CC/Node.lua/master/node.lua"
+      }
     }
   }
 }

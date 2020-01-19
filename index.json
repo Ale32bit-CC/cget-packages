@@ -11,7 +11,7 @@
         "cget.lua": "https://raw.githubusercontent.com/Ale32bit-CC/CraftGet/master/cget.lua"
       },
       "autorun": [
-        "cget setup"
+        "cget init"
       ],
       "dependencies": [
         "ale32bit/bin-utils"

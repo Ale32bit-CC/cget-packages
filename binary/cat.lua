@@ -1,9 +1,19 @@
-local path = ...
-if fs.exists(path) and not fs.isDir(path) then
-    local f = fs.open(path, "r")
-    local content = f.readAll()
-    f.close()
-    print(content)
+local args = {...}
+if args[1] then
+    local path = ((shell and shell.dir()) or "") .. args[1]
+    if fs.isDir(path) then
+        error("Path is a directory", 2)
+    end
+    if fs.exists(path) then
+        local f = fs.open(path, "r")
+        print(f.readAll())
+        f.close()
+        return
+    else
+        error("File not found", 2)
+    end
 else
-    error("path must exists and not be a directory")
-end 
+    while true do
+        print(read())
+    end
+end

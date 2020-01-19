@@ -54,6 +54,17 @@
       "files": {
         "node.lua": "https://raw.githubusercontent.com/Ale32bit-CC/Node.lua/master/node.lua"
       }
+    },
+    "soqet": {
+      "name": "Soqet",
+      "authors": [
+        "Ale32bit"
+      ],
+      "license": "MIT",
+      "version": "1.0.0",
+      "files": {
+        "soqet.lua": "https://raw.githubusercontent.com/Ale32bit/Soqet/master/soqet.lua"
+      }
     }
   }
 }

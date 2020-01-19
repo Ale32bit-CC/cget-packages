@@ -6,12 +6,15 @@
         "Ale32bit"
       ],
       "license": "MIT",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "files": {
         "cget.lua": "https://raw.githubusercontent.com/Ale32bit-CC/CraftGet/master/cget.lua"
       },
       "autorun": [
         "cget setup"
+      ],
+      "dependencies": [
+        "ale32bit/bin-utils"
       ]
     },
     "hello": {
@@ -34,10 +37,11 @@
       "license": "MIT",
       "version": "1.0.0",
       "files": {
-        "/bin/echo.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/echo.lua",
-        "/bin/cat.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/cat.lua",
-        "/bin/sleep.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/sleep.lua",
-        "/bin/touch.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/touch.lua"
+        "/.craftget/bin/echo.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/echo.lua",
+        "/.craftget/bin/cat.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/cat.lua",
+        "/.craftget/bin/sleep.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/sleep.lua",
+        "/.craftget/bin/touch.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/touch.lua",
+        "/.craftget/bin/less.lua": "https://raw.githubusercontent.com/Ale32bit-CC/cget-packages/master/binary/less.lua"
       }
     },
     "nodelua": {
